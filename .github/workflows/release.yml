@@ -11,7 +11,7 @@ on:
 jobs:
   release:
     name: Release
-    uses: felixs-alt/actions/.github/workflows/rw-baseset-build.yml@master
+    uses: felixs-alt/actions/.github/workflows/rw-baseset-build.yml@main
     with:
       apt-packages: gimp grfcodec
       name: opengfx
