@@ -18,5 +18,5 @@ jobs:
       pip-packages: nml
       problem-matcher: .github/workflows/nml-problem-matcher.json
       publish: true
-      release-date: '%Y%m%d'
-      version: ${{ github.head_ref }}-${{ github.sha }}
+      release-date: "20250220"
+      version: ${{ github.ref_name }}-master
