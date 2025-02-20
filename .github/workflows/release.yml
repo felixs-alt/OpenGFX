@@ -19,4 +19,4 @@ jobs:
       problem-matcher: .github/workflows/nml-problem-matcher.json
       publish: true
       release-date: "20250220"
-      version: ${{ github.ref_name }}-master
+      version: opengfx-master
