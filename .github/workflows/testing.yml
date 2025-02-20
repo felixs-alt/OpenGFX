@@ -12,7 +12,7 @@ on:
 jobs:
   testing:
     name: Testing
-    uses: felixs-alt/actions/.github/workflows/rw-entry-testing-baseset.yml@5
+    uses: felixs-alt/actions/.github/workflows/rw-entry-testing-baseset.yml@latest
     with:
       apt-packages: gimp grfcodec
       name: opengfx
