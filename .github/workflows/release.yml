@@ -14,9 +14,9 @@ jobs:
     uses: felixs-alt/actions/.github/workflows/rw-baseset-build.yml@main
     with:
       apt-packages: gimp grfcodec
-      name: opengfx
+      name: opengfx-20250220
       pip-packages: nml
       problem-matcher: .github/workflows/nml-problem-matcher.json
       publish: true
       release-date: "20250220"
-      version: opengfx-master
+      version: master
