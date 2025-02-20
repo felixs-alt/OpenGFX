@@ -11,10 +11,12 @@ on:
 jobs:
   release:
     name: Release
-    uses: OpenTTD/actions/.github/workflows/rw-entry-release-baseset.yml@v5
-    secrets: inherit
+    uses: felixs-alt/actions/.github/workflows/rw-baseset-build.yml@master
     with:
       apt-packages: gimp grfcodec
       name: opengfx
       pip-packages: nml
       problem-matcher: .github/workflows/nml-problem-matcher.json
+      publish: true
+      release-date: '%Y%m%d'
+      version: ${{ github.head_ref }}-${{ github.sha }}
