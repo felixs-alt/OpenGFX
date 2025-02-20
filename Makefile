@@ -393,7 +393,7 @@ endif
 ################################################################
 
 FILE_VERSION_STRING := $(REPO_VERSION)
-DIR_NAME           := $(PROJECT_FILENAME)-$(FILE_VERSION_STRING)
+DIR_NAME           := $(PROJECT_FILENAME)-master
 TAR_FILENAME       := $(DIR_NAME).tar
 
 bundle: $(DIR_NAME)
